@@ -1,0 +1,18 @@
+<div class="container">
+    <h1 class="heading">Products</h1>
+
+    <div class="box-container" fxLayout="row wrap" fxLayoutGap="15px">
+        <div class="box" fxFlex.gt-sm="30%" fxFlex.xs="100%" *ngFor="let item of shopProducts">
+            <mat-card class="product-card" (click)="navigateToDetails(item._id)">
+                <img mat-card-image [src]="item.image" alt="Product Image">
+                <mat-card-content>
+                    <h2>{{ item.title }}</h2>
+                    <p style="padding-bottom: 5px;">Price: &#x20B9; {{ item.price }}</p>
+                </mat-card-content>
+                <div class="baseColor">
+                    <a mat-button class="link" routerLink="/product-details/{{ item._id }}">View Details</a>
+                </div>
+            </mat-card>
+        </div>
+    </div>
+</div>

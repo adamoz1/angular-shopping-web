@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+.container {
+    padding: 15px 9%;
+    padding-bottom: 100px;
+}
+
+.heading {
+    padding-bottom: 15px;
+    font-size: 28px;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 15px;
+}
+
+.box {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 70rem;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonGroup{
+    margin-top: 1.5rem;
+}
+
+.box img {
+    height: 300px;
+    width: 400px;
+    object-fit: contain;
+    /* margin-right: 100px; */
+}
+
+.box h2 {
+    padding-bottom: 10px;
+}
+
+.box p {
+    color: #3c3838;
+    font-size: 15px;
+    line-height: 1.8;
+    padding: 10px 0;
+}
+
+.quantity-group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* .quantity-group button {
+    padding: 10px;
+    background-color: rgb(168, 119, 168);
+    cursor: pointer;
+    min-width: 32px; 
+} */
+
+.quantity-group input {
+    padding: 10px;
+    width: 40px;
+    border: solid 1px plum;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+}

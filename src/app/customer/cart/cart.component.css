@@ -1,0 +1,17 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+#w{
+  padding: 0rem 5rem;
+}
+.thumb{
+    width: 100px;
+    height: 100px;
+    margin-right: 1
+}
+
+span{
+  margin-right: 20px;
+  color: grey;
+}

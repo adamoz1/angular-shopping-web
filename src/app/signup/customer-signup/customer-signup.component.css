@@ -1,0 +1,47 @@
+/* background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e); */
+.top-container {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 86vh;
+	font-family: 'Jost', sans-serif;
+}
+
+.signup-form {
+	min-width: 150px;
+	max-width: 500px;
+	width: 100%;
+}
+
+.signup-card {
+	width: 100%;
+	padding: 16px;
+	box-shadow: 0px 3px 6px #00000029;
+	border-radius: 8px;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.txtbox {
+	width: 100%;
+}
+
+.mainContent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 16px 0;
+}
+
+.actionsTab {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
